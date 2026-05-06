@@ -12,7 +12,7 @@
 :root{
   --bg:#0b1525;--bg-card:#0f1d30;--bg-card-h:#132640;
   --accent:#c45e1a;--accent-l:#e8823a;--accent-m:rgba(196,94,26,.15);
-  --text:#d4dae4;--text-m:#7a8ba3;--heading:#f0f2f5;
+  --text:#d4dae4;--text-m:#7a8ba3;--heading:#c8cdd5;
   --border:rgba(196,94,26,.25);--border-s:rgba(122,139,163,.15);
   --font-body:'Source Sans 3',sans-serif;
   --font-head:'DM Serif Display',serif;
@@ -707,17 +707,6 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
 <div class="page" id="page-ressources">
   <div class="section-title"><h2>Ressources</h2><p>Documents, rapports et liens utiles</p><div class="bar"></div></div>
 
-  <div class="card" style="padding:26px;margin-bottom:20px">
-    <h3 style="font-family:var(--font-head);color:var(--heading);font-size:1.15rem;margin-bottom:6px">Comment ajouter tes fichiers</h3>
-    <p style="font-size:.9rem;line-height:1.7;margin-bottom:16px;color:var(--text-m)">
-      Place tes fichiers PDF dans un dossier <code>docs/</code> à côté de ce fichier HTML, puis modifie les liens ci-dessous en remplaçant <code>href="#"</code> par le chemin vers ton fichier, par exemple <code>href="docs/rapport-onera.pdf"</code>.
-    </p>
-    <p style="font-size:.85rem;line-height:1.7;color:var(--text-m);padding:12px;background:var(--accent-m);border-radius:6px;border-left:3px solid var(--accent)">
-      <strong style="color:var(--accent-l)">Pour le téléchargement :</strong> ajoute l'attribut <code>download</code> au lien.<br>
-      <strong style="color:var(--accent-l)">Pour l'affichage PDF :</strong> ajoute <code>target="_blank"</code> pour ouvrir dans un nouvel onglet.
-    </p>
-  </div>
-
   <div class="card-grid cols-2">
     <div class="card" style="padding:22px">
       <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 Rapport de stage — ONERA</h4>
@@ -747,11 +736,9 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
         </a>
       </div>
     </div>
-  </div>
-
-<div class="card" style="padding:22px">
-      <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 Portfolio OpenVPN + Pritunl</h4>
-      <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Déploiement VPN en DMZ — BTS SIO SISR</p>
+    <div class="card" style="padding:22px">
+      <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 OpenVPN + Pritunl</h4>
+      <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Déploiement VPN en zone DMZ — Maxime & Nathan</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         <a href="#" target="_blank" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
@@ -764,8 +751,8 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       </div>
     </div>
     <div class="card" style="padding:22px">
-      <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 Portfolio VoIP FreePBX + Asterisk</h4>
-      <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Infrastructure téléphonie IP — BTS SIO SISR</p>
+      <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 VoIP FreePBX + Asterisk</h4>
+      <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Téléphonie IP d'entreprise — Maxime & Nathan</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         <a href="#" target="_blank" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
@@ -778,8 +765,8 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       </div>
     </div>
     <div class="card" style="padding:22px">
-      <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 Portfolio Supervision Zabbix + Grafana</h4>
-      <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Supervision réseau 3 niveaux — BTS SIO SISR</p>
+      <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 Supervision Zabbix + Grafana</h4>
+      <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Supervision réseau complète — Maxime & Nathan</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         <a href="#" target="_blank" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
@@ -791,13 +778,31 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
         </a>
       </div>
     </div>
-<div class="card" style="padding:22px">
+    <div class="card" style="padding:22px">
       <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📁 Site Web « De pâte en patte »</h4>
       <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Projet de 1ère année BTS — Site multi-pages HTML/CSS</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         <a href="#" download="site-depateenpatte.zip" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           Télécharger le site (.zip)
+        </a>
+        <a href="#" target="_blank" class="dl-btn" style="background:var(--accent);color:var(--bg);border-color:var(--accent)">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          Voir le site en ligne
+        </a>
+      </div>
+    </div>
+    <div class="card" style="padding:22px">
+      <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📐 Charte graphique — Portfolio</h4>
+      <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Palette, typographie, composants et règles du portfolio</p>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <a href="docs/charte_graphique_portfolio.pdf" target="_blank" class="dl-btn">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+          Voir le PDF
+        </a>
+        <a href="docs/charte_graphique_portfolio.pdf" download class="dl-btn">
+          <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+          Télécharger
         </a>
       </div>
     </div>
