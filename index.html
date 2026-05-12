@@ -215,7 +215,9 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       <li><a href="#" data-page="parcours">Parcours</a></li>
       <li><a href="#" data-page="projets">Projets</a></li>
       <li><a href="#" data-page="competences">Compétences</a></li>
-      <li><a href="#" data-page="ressources">Ressources</a></li>
+      <li><a href="#" data-page="veille">Veille</a></li>
+      <li><a href="#" data-page="veille">Veille</a>
+  <a href="#" data-page="ressources">Ressources</a></li>
       <li><a href="#" data-page="contact">Contact</a></li>
     </ul>
     <button class="hamburger" id="hamburgerBtn">☰</button>
@@ -227,6 +229,7 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
   <a href="#" data-page="parcours">Parcours</a>
   <a href="#" data-page="projets">Projets</a>
   <a href="#" data-page="competences">Compétences</a>
+  <a href="#" data-page="veille">Veille</a>
   <a href="#" data-page="ressources">Ressources</a>
   <a href="#" data-page="contact">Contact</a>
 </div>
@@ -703,6 +706,125 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
   </div>
 </div>
 
+
+<!-- ════════════════ VEILLE TECHNOLOGIQUE ════════════════ -->
+<div class="page" id="page-veille">
+  <div class="section-title"><h2>Veille Technologique</h2><p>L'évolution des puces Nvidia (2024 – 2026)</p><div class="bar"></div></div>
+
+  <div class="card" style="padding:26px;margin-bottom:24px">
+    <p style="line-height:1.7;font-size:.92rem">Cette veille porte sur l'évolution des GPU Nvidia au cours des deux dernières années, couvrant les architectures datacenter (Hopper, Blackwell, Rubin) et les cartes grand public (RTX 50 series). Nvidia domine le marché de l'IA et du gaming grâce à un rythme d'innovation annuel sans précédent.</p>
+    <div class="badges">
+      <span class="badge">GPU</span><span class="badge">Intelligence Artificielle</span><span class="badge">Blackwell</span>
+      <span class="badge">RTX 50 Series</span><span class="badge">Data Center</span><span class="badge">Rubin</span>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <div class="card" style="padding:28px">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">Mars 2024</div>
+        <div class="timeline-title">Annonce de l'architecture Blackwell (GTC 2024)</div>
+        <div class="timeline-desc">Nvidia dévoile l'architecture Blackwell lors de la conférence GTC 2024. Le GPU B200 embarque 208 milliards de transistors dans un design multi-die (2 puces connectées par un lien 10 To/s). Il promet une amélioration de 25x en efficacité énergétique par rapport à Hopper pour les opérations d'IA.</div>
+        <a href="https://www.nextplatform.com/2024/06/02/nvidia-unfolds-gpu-interconnect-roadmaps-out-to-2027/" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">nextplatform.com — Nvidia Unfolds GPU Roadmap →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">Juin 2024</div>
+        <div class="timeline-title">Roadmap GPU et interconnect étendue jusqu'à 2027</div>
+        <div class="timeline-desc">Nvidia publie une feuille de route détaillée : Blackwell (2024), Blackwell Ultra (2025), Rubin (2026), Rubin Ultra (2027). La performance GPU a été multipliée par 1 053x en 8 ans entre le Pascal P100 et le Blackwell B100. L'architecture NVLink passe à 1,8 To/s avec la 5e génération.</div>
+        <a href="https://www.nextplatform.com/2024/06/02/nvidia-unfolds-gpu-interconnect-roadmaps-out-to-2027/" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">nextplatform.com — Nvidia GPU Roadmap to 2027 →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">Q3-Q4 2024</div>
+        <div class="timeline-title">Livraison des premiers Blackwell B200 datacenter</div>
+        <div class="timeline-desc">Les premiers GPU Blackwell B100/B200 commencent à être livrés aux hyperscalers (Microsoft, Google, Amazon). Ils utilisent 8 piles de mémoire HBM3e et sont fabriqués par TSMC en process 4N. La demande dépasse massivement l'offre : Blackwell est sold out jusqu'à mi-2026.</div>
+        <a href="https://www.cudocompute.com/blog/nvidia-gpu-upgrade-planning" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">cudocompute.com — Nvidia GPU Upgrade Planning →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">6 janvier 2025</div>
+        <div class="timeline-title">CES 2025 — Annonce des GeForce RTX 50 Series</div>
+        <div class="timeline-desc">Jensen Huang présente la gamme RTX 50 au CES de Las Vegas : RTX 5090 (32 Go GDDR7, 21 760 CUDA cores, 575W), RTX 5080 (16 Go GDDR7, 10 752 CUDA cores), RTX 5070 Ti et RTX 5070. DLSS 4 avec génération multi-images (4x) et Reflex 2 sont annoncés. Le RTX 5070 est présenté comme atteignant les performances du RTX 4090 pour 549$.</div>
+        <a href="https://www.microcenter.com/site/mc-news/article/nvidia-50-series-ces-2025-keynote.aspx" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">microcenter.com — RTX 50-Series CES 2025 →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">30 janvier 2025</div>
+        <div class="timeline-title">Lancement commercial RTX 5090 et RTX 5080</div>
+        <div class="timeline-desc">Les RTX 5090 (2 349€) et RTX 5080 (1 179€) sont mises en vente. Les stocks sont extrêmement limités avec des délais pouvant atteindre 16 semaines. Les versions custom AIB affichent des prix supérieurs de 30% au MSRP. Le connecteur 12V-2x6 est critiqué pour un défaut de conception pouvant provoquer une surchauffe.</div>
+        <a href="https://www.ginjfo.com/actualites/composants/cartes-graphiques/geforce-rtx-5090-et-rtx-5080-les-tests-seront-publies-les-24-puis-le-29-et-enfin-le-30-janvier-2025-20250114" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">ginjfo.com — Tests RTX 5090 et 5080 →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">Février 2025</div>
+        <div class="timeline-title">RTX 5070 Ti et RTX 5070 — Disponibilité</div>
+        <div class="timeline-desc">Les RTX 5070 Ti et RTX 5070 rejoignent la gamme. Des problèmes de drivers (branche 572.XX) affectent la stabilité sur les RTX 50 et même les générations précédentes (BSOD, corruptions graphiques). Nvidia abandonne le support PhysX 32-bit, provoquant des réactions négatives de la communauté gaming.</div>
+        <a href="https://en.wikipedia.org/wiki/GeForce_RTX_50_series" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">wikipedia.org — GeForce RTX 50 Series →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">Mars 2025</div>
+        <div class="timeline-title">GTC 2025 — Annonce de Blackwell Ultra et Rubin</div>
+        <div class="timeline-desc">Nvidia confirme le GB300 NVL72 (Blackwell Ultra) pour le S2 2025 avec 288 Go de HBM3e par GPU et 15 PFLOPS en FP4. L'architecture Rubin (R200) est annoncée pour 2026 avec HBM4 et NVLink 6. Nvidia prévoit aussi des liens optiques chip-to-chip pour les clusters IA à l'échelle exascale.</div>
+        <a href="https://www.nextplatform.com/compute/2025/03/19/nvidia-draws-gpu-system-roadmap-out-to-2028/1653528" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">nextplatform.com — GPU Roadmap to 2028 →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">Mars 2025</div>
+        <div class="timeline-title">Laptops RTX 50 Series — Lancement</div>
+        <div class="timeline-desc">Les premiers laptops avec GPU RTX 50 mobiles arrivent sur le marché, à partir de 1 299$. Nvidia promet une autonomie améliorée de 40% grâce aux fonctions Max-Q de Blackwell (coupure dynamique des zones GPU inutilisées, GDDR7 en mode ultra basse tension).</div>
+        <a href="https://en.wikipedia.org/wiki/GeForce_RTX_50_series" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">wikipedia.org — RTX 50 Series Mobile →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">S2 2025 (prévu)</div>
+        <div class="timeline-title">GB300 NVL72 — Blackwell Ultra datacenter</div>
+        <div class="timeline-desc">Le rack GB300 NVL72 combine 72 GPU Blackwell Ultra avec 36 CPU Grace (ARM). Il atteint 1 100 PFLOPS en FP4 pour l'inférence et 360 PFLOPS en FP8 pour l'entraînement, soit 50% de plus que le GB200. Les SmartNIC ConnectX-8 passent à 800 Gb/s.</div>
+        <a href="https://www.nextplatform.com/compute/2025/03/19/nvidia-draws-gpu-system-roadmap-out-to-2028/1653528" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">nextplatform.com — GB300 NVL72 →</a>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"><div class="dot"></div><div class="line" style="background:transparent"></div></div>
+      <div class="timeline-content">
+        <div class="timeline-date">2026 (prévu)</div>
+        <div class="timeline-title">Architecture Rubin — Prochaine génération</div>
+        <div class="timeline-desc">L'architecture Rubin (R200) devrait introduire la mémoire HBM4, le NVLink 6, et un design multi-die à 3+ puces avec interconnexions optiques. Le CPU Vera (successeur du Grace ARM) l'accompagnera. Nvidia vise les datacenters de 1 GW et les modèles IA à mille milliards de paramètres.</div>
+        <a href="https://www.patsnap.com/resources/blog/articles/nvidia-gpu-architecture-roadmap-cuda-to-blackwell/" target="_blank" style="font-size:.82rem;margin-top:6px;display:inline-block">patsnap.com — NVIDIA GPU Architecture Roadmap →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <!-- ════════════════ RESSOURCES ════════════════ -->
 <div class="page" id="page-ressources">
   <div class="section-title"><h2>Ressources</h2><p>Documents, rapports et liens utiles</p><div class="bar"></div></div>
@@ -712,11 +834,11 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 Rapport de stage — ONERA</h4>
       <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Réseau mesh ad-hoc, BATMAN-adv, Raspberry Pi</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a href="docs/RapportdestageOnera.pdf" target="_blank" class="dl-btn">
+        <a href="#" target="_blank" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
           Voir le PDF
         </a>
-        <a href="docs/RapportdestageOnera.pdf" download class="dl-btn">
+        <a href="#" download class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           Télécharger
         </a>
@@ -726,11 +848,11 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 CV — Maxime Fourtané</h4>
       <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Dernière version à jour</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a href="docs/CV.pdf" target="_blank" class="dl-btn">
+        <a href="#" target="_blank" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
           Voir le PDF
         </a>
-        <a href="docs/CV.pdf" download class="dl-btn">
+        <a href="#" download class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           Télécharger
         </a>
@@ -740,11 +862,11 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 OpenVPN + Pritunl</h4>
       <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Déploiement VPN en zone DMZ — Maxime & Nathan</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a href="docs/OpenVPNPritunl.pdf" target="_blank" class="dl-btn">
+        <a href="#" target="_blank" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
           Voir le PDF
         </a>
-        <a href="docs/OpenVPNPritunl.pdf" download class="dl-btn">
+        <a href="#" download class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           Télécharger
         </a>
@@ -768,11 +890,11 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📄 Supervision Zabbix + Grafana</h4>
       <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Supervision réseau complète — Maxime & Nathan</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a href="docs/Supervision.pdf" target="_blank" class="dl-btn">
+        <a href="#" target="_blank" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
           Voir le PDF
         </a>
-        <a href="docs/Supervision.pdf" download class="dl-btn">
+        <a href="#" download class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           Télécharger
         </a>
@@ -782,7 +904,7 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📁 Site Web « De pâte en patte »</h4>
       <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Projet de 1ère année BTS — Site multi-pages HTML/CSS</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a href="site-depateenpatte.zip" download="site-depateenpatte.zip" class="dl-btn">
+        <a href="#" download="site-depateenpatte.zip" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           Télécharger le site (.zip)
         </a>
@@ -796,11 +918,11 @@ code{background:rgba(196,94,26,.12);padding:2px 6px;border-radius:3px;font-size:
       <h4 style="color:var(--heading);margin-bottom:8px;font-family:var(--font-head)">📐 Charte graphique — Portfolio</h4>
       <p style="font-size:.85rem;color:var(--text-m);margin-bottom:14px">Palette, typographie, composants et règles du portfolio</p>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        <a href="docs/CharteGraphiquePortfolio.pdf" target="_blank" class="dl-btn">
+        <a href="docs/charte_graphique_portfolio.pdf" target="_blank" class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
           Voir le PDF
         </a>
-        <a href="docs/CharteGraphiquePortfolio.pdf" download class="dl-btn">
+        <a href="docs/charte_graphique_portfolio.pdf" download class="dl-btn">
           <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           Télécharger
         </a>
